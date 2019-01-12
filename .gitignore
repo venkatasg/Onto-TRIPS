@@ -1,0 +1,11 @@
+*.csv
+*.tsv
+*.txt
+FACTS.lab.egg-info/
+dist/
+__pycache__/
+.ipynb_checkpoints/
+*.sbatch
+*.pkl
+*.md
+*.png
