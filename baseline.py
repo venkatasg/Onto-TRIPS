@@ -1,13 +1,11 @@
 from os.path import expanduser
 import pickle
-from utility import get_senses, get_types
+from utility import get_senses
 import pandas as pd
-import numpy as np
 from collections import defaultdict
 from tqdm import tqdm
 from genesis.tools.trips import ontology as ont
 import random
-from tqdm import tqdm
 
 home = expanduser('~')
 
