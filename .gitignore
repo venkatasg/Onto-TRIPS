@@ -9,3 +9,10 @@ __pycache__/
 *.pkl
 *.md
 *.png
+/xaf
+/xae
+/xad
+/xac
+/xab
+/xaa
+*.xml

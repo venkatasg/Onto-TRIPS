@@ -28,6 +28,7 @@ if __name__ == '__main__':
     dev_sents, dev_senses, _ = remove_useless(dev_sents, dev_senses)
     test_sents, test_senses, _ = remove_useless(test_sents, test_senses)
 
+    import ipdb; ipdb.set_trace()
     ont_senses = [a for a in get_senses() if a.group == '1']
     trips_names = [a.name for a in list(ont.data.values())]
 
